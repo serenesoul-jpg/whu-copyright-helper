@@ -1,0 +1,5 @@
+interface:
+  display_name: "高校软著说明书"
+  short_description: "生成图文并茂且符合软著交存格式的软件说明书材料"
+  default_prompt: "Use $university-copyright-software-manual to draft and validate a software manual for university software copyright registration."
+

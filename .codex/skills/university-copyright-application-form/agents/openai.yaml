@@ -1,0 +1,4 @@
+interface:
+  display_name: "高校软著申请表"
+  short_description: "根据项目信息生成并校验高校软著登记申请表草稿"
+  default_prompt: "Use $university-copyright-application-form to draft and validate a university software copyright registration application form."

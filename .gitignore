@@ -1,0 +1,32 @@
+# 操作系统
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时与缓存
+.cache/
+tmp/
+*.log
+
+# 用户敏感材料，不应提交
+*.doc
+*.docx
+*.pdf
+*.zip
+*.rar
+*.7z
+screenshots/
+uploads/
+output/
+
+# Codex 本地运行产物
+.codex/cache/
+.codex/sessions/
