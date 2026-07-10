@@ -16,6 +16,7 @@
 - 按高校软著材料场景整理申请表字段、默认值、必填项和冲突检查。
 - 根据项目功能、截图、架构和申请表信息生成软件说明书正文。
 - 为说明书提供 20000 字以上长文档输出协议、章节字数预算和分卷续写规则。
+- 默认输出 Markdown 文案，并通过去 AI 化规则约束正文更像真实项目材料。
 - 输出待补充信息、验收风险、截图清单、图注和 Word 可用正文。
 - 保持 Skill 渐进式加载：核心流程在 `SKILL.md`，详细规则在 `references/`。
 
@@ -110,7 +111,7 @@ Use $university-copyright-application-form to draft and validate a university so
 ```text
 Use $university-copyright-software-manual to generate a complete university software copyright manual.
 
-请根据以下项目信息生成完整软件说明书正文，要求复制到 Word 后不少于 20 页。可以分卷输出，但不要只给目录或样例。
+请根据以下项目信息生成完整 Markdown 软件说明书正文，要求复制到 Word 后不少于 20 页。可以分卷输出，但不要只给目录或样例。正文请去 AI 化，少写套话，多写真实功能、字段、流程、异常和测试细节。
 
 软件名称：XXX系统
 版本号：V1.0
@@ -124,7 +125,7 @@ Use $university-copyright-software-manual to generate a complete university soft
 ## 当前完成度
 
 - 申请表 Skill：已具备字段草稿、默认规则、缺失项、冲突检查和验收风险输出。
-- 说明书 Skill：已具备完整长文档协议，默认按 20000 中文字符以上规划，并支持分卷续写和长度自检。
+- 说明书 Skill：已具备完整长文档协议，默认按 20000 中文字符以上规划，并支持分卷续写、长度自检和去 AI 化文风自检。
 - 尚未包含 `.docx` 自动排版、源代码鉴别材料整理、校内附件信息表和完整材料打包脚本。
 
 ## 开发与校验

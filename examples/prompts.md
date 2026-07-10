@@ -32,7 +32,7 @@ Use $university-copyright-application-form to draft and validate a university so
 ```text
 Use $university-copyright-software-manual to generate a complete university software copyright manual.
 
-请生成完整软件说明书正文，复制到 Word 后不少于 20 页。可以按第 1 卷、第 2 卷、第 3 卷分批输出，但不要只给目录或前两章样例。每卷末尾请给出累计字数估算和下一卷起点。
+请生成完整 Markdown 软件说明书正文，复制到 Word 后不少于 20 页。可以按第 1 卷、第 2 卷、第 3 卷分批输出，但不要只给目录或前两章样例。正文请去 AI 化，少写套话，多写真实功能、字段、流程、异常和测试细节。每卷末尾请给出累计字数估算、去 AI 化检查和下一卷起点。
 
 软件全称：示例智能文档管理系统
 版本号：V1.0
@@ -57,7 +57,7 @@ Use $university-copyright-software-manual to generate a complete university soft
 ```text
 Use $university-copyright-software-manual to draft a long software manual based on the application-form facts below.
 
-下面是申请表 Skill 输出的项目事实摘要。请基于这些事实生成完整说明书正文，目标不少于 20000 中文字符。缺少截图时使用图位占位，不要虚构真实截图。
+下面是申请表 Skill 输出的项目事实摘要。请基于这些事实生成完整 Markdown 说明书正文，目标不少于 20000 中文字符。缺少截图时使用图位占位，不要虚构真实截图。正文请去 AI 化，避免泛泛背景和宣传式表达。
 
 项目事实摘要：
 - 软件全称：示例智能文档管理系统
